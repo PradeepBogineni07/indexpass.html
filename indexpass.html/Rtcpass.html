@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TSRTC Bus Pass</title>
+</head>
+<body>
+   <h1 align="center"><img src="https://www.tgsrtc.telangana.gov.in/tsrtc-logo@5x.webp" alt="Image" width="100" height="100"></h1>
+    <h1 align="center">TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+    <h1 align="center">GENERAL BUS PASS APPLICATION</h1>
+         <form action="Appsuccess.html" method="get">
+        <fieldset>
+            <legend>APPLICATION DETAILS</legend>
+                <label for="user">Name:</label>
+                <input type="text" id="user" name="Name">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="Father/Guardian">Father's/ Guardian's Name:</label>
+                <input type="text" id="Father/Guardian" name="Father/Guardian">
+                <br><br>
+                <label for="dob">Date Of Birth:</label>
+                <input type="date" id="dob" name="dob">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="">Gender:</label>
+                <input type="radio" name="Gender">
+                <label>Male</label>
+                <input type="radio" name="Gender">
+                <label>Female</label>
+                <br><br>
+                <label>Age As On:</label>
+                <input type="number" name="year">
+                <label>year(s)</label>
+                <input type="number" name="month">
+                <label>Month(s)</label>
+                <input type="number" name="Day">
+                <label>Day(s)</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="aadhaar">Aadhaar No:</label>
+                <input type="text" id="aadhaar" name="Aadhaar">
+                <br><br>
+                <label for="WA no">WhatsApp No:</label>
+                <input type="text" id="WA no" name="WhatsApp No">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="email">E-mail id:</label>
+                <input type="text" id="email" name="E-mail id">
+                <br><br>
+                <label>Photo:</label>
+                <input type="file" name="photo">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>RESIDENTIAL ADDRESS DETAILS</legend>
+            <label for="address">Address:</label>
+                <textarea rows="5" id="address" name="Address"></textarea>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <label for="District">District:</label>
+               <select id="District" name="District Name">
+                <option selected disabled>-Select-</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Sangareddy">Sangareddy</option>
+                <option value="Medak">Medak</option>
+                <option value="Warangal">Warangal</option>
+                <option value="Rangareddy">Rangareddy</option>
+               </select>
+               <br><br>
+               <label for="Mandal">Mandal:</label>
+               <select id="Mandal" name="Mandal Name">
+                <option selected disabled>-Select-</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Sirgapoor">Sirgapoor</option>
+                <option value="Medak">Medak</option>
+                <option value="Warangal">Warangal</option>
+                <option value="Rangareddy">Rangareddy</option>
+               </select>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <label for="Village">Village:</label>
+               <select id="Village" name="Village Name">
+                <option selected disabled>-Select-</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Kadpal">Kadpal</option>
+                <option value="Medak">Medak</option>
+                <option value="Warangal">Warangal</option>
+                <option value="Rangareddy">Rangareddy</option>
+               </select>
+               <br><br>
+               <label for="pin">Pincode:</label>
+               <input type="number" id="pin" name="Pincode">  
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>PASS TYPE DETAILS</legend>
+            <label for="City">city:</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <select id="city" name="city Name">
+                <option selected disabled>-Select-</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Narayankhed">Narayankhed</option>
+                <option value="Medak">Medak</option>
+                <option value="Warangal">Warangal</option>
+                <option value="Rangareddy">Rangareddy</option>
+               </select>
+               <br><br>
+               <label for="Pass">Pass Type:</label>
+               <select id="Pass" name="Pass Type">
+                <option selected disabled>-Select-</option>
+                <option value="Greater">Greater Pass</option>
+                <option value="Ordinary">Ordinary Pass</option>
+                <option value="Metro">Metro Express</option>
+                <option value="ordinary Monthly">ordinary Route Pass For Monthly</option>
+                <option value="Metro Monthly">Metro Express Route Pass For Monthly</option>
+               </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>MODE OF PAYMENT & PASS COLLECTION</legend>
+            <label for="Payment">Payment Mode:</label>
+               <select id="Payment" name="Payment Mode">
+                <option selected disabled>-Select-</option>
+                <option value="cash">Cash At Counter</option>
+                <option value="Online">Upi</option>
+               </select>
+                <br><br>
+                <label for="Delivery">Delivery Mode:</label>
+               <select id="Delivery" name="Delivery Mode">
+                <option selected disabled>-Select-</option>
+                <option value="Counter"> At Counter</option>
+               </select>
+               <br><br>
+               <label for="dp">Center At Which You Want To Collect Pass:</label>
+               <select id="dp" name="Delivery Place">
+                <option selected disabled>-Select-</option>
+                <option value="Kukatpally">RTC KUKATPALLY--HYD </option>
+                <option value="KPHB">RTC KPHB--HYD</option>
+                <option value="Medak">RTC Medak</option>
+                <option value="Warangal">RTC WARANGAL</option>
+                <option value="Rangareddy">RTC RANGAREDDY</option>
+                <option value="Medak">RTC Medak</option>
+                <option value="Narayankhed">RTC Narayankhed</option>
+                <option value="Koti">RTC KOTI--HYD</option>
+               </select>
+             </fieldset>
+             <br>
+             <center>
+                <img src="https://miro.medium.com/v2/resize:fit:750/format:webp/1*MHqIWdansPvRMEmUK2KNPw.png" width="80" height="55"><img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*sFkXxdfaGvbfM53GcuPsrA.png" width="60" height="55">
+                <br>
+             <input type="text" id="captcha" name="captcha" placeholder="Enter Your Answer" required>
+             <br>
+             <input type="submit" value="submit">
+             </center>
+         </form>
+    </table>
+</body>
+</html>
+</body>
+</html>
